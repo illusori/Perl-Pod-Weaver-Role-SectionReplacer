@@ -1,0 +1,47 @@
+Pod-Weaver-Role-SectionReplacer
+
+A role for Pod::Weaver plugins, allowing them to replace a named
+section of the input document rather than appending a potentially
+duplicate section.
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Build.PL
+	./Build
+	./Build test
+	./Build install
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the
+perldoc command.
+
+    perldoc Pod::Weaver::Role::SectionReplacer
+
+You can also look for information at:
+
+    RT, CPAN's request tracker
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Pod-Weaver-Role-SectionReplacer
+
+    AnnoCPAN, Annotated CPAN documentation
+        http://annocpan.org/dist/Pod-Weaver-Role-SectionReplacer
+
+    CPAN Ratings
+        http://cpanratings.perl.org/d/Pod-Weaver-Role-SectionReplacer
+
+    Search CPAN
+        http://search.cpan.org/dist/Pod-Weaver-Role-SectionReplacer/
+
+
+LICENSE AND COPYRIGHT
+
+Copyright (C) 2010 Sam Graham
+
+This program is free software; you can redistribute it and/or modify it
+under the terms of either: the GNU General Public License as published
+by the Free Software Foundation; or the Artistic License.
+
+See http://dev.perl.org/licenses/ for more information.
+
