@@ -24,4 +24,8 @@ requires:
   Pod::Weaver: 0
 resources:
   license: http://dev.perl.org/licenses/
+  repository:
+    type: git
+    url: git://github.com/illusori/Perl-Pod-Weaver-Role-SectionReplacer.git
+    web: http://github.com/illusori/Perl-Pod-Weaver-Role-SectionReplacer
 version: 0.99_01

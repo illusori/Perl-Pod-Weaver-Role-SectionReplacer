@@ -16,6 +16,15 @@ my $builder = Module::Build->new(
         'Pod::Elemental' => 0,
         'Pod::Weaver'    => 0,
     },
+    meta_merge => {
+        'resources' => {
+            'repository' => {
+                'type'  => 'git',
+                'url'   => 'git://github.com/illusori/Perl-Pod-Weaver-Role-SectionReplacer.git',
+                'web'   => 'http://github.com/illusori/Perl-Pod-Weaver-Role-SectionReplacer',
+                },
+            },
+        },
     sign => 1,
     dynamic_config => 0,
 );
