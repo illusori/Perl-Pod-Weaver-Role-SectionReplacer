@@ -1,6 +1,6 @@
 package Pod::Weaver::Role::SectionReplacer;
 
-# ABSTRACT: a Pod::Weaver section that will replace itself in the original document
+# ABSTRACT: a Pod::Weaver section that will replace itself in the original document.
 
 use Moose::Role;
 with 'Pod::Weaver::Role::Transformer';
@@ -74,7 +74,7 @@ __END__
 
 =head1 NAME
 
-Pod::Weaver::Role::SectionReplacer - a Pod::Weaver section that will replace itself in the original document
+Pod::Weaver::Role::SectionReplacer - a Pod::Weaver section that will replace itself in the original document.
 
 =head1 VERSION
 
@@ -85,10 +85,6 @@ version 0.99_01
 A role for L<Pod::Weaver> plugins, allowing them to replace a named
 section of the input document rather than appending a potentially
 duplicate section.
-
-=head1 NAME
-
-Pod::Weaver::Role::SectionReplacer - a Pod::Weaver section that will replace itself in the original document
 
 =head1 IMPLEMENTING
 
@@ -175,11 +171,11 @@ own, you will need to reconcile the two.
 
 =head1 AUTHOR
 
-Sam Graham <libpod-weaver-role-sectionreplacer-perl@illusori.co.uk>
+Sam Graham <libpod-weaver-role-sectionreplacer-perl BLAHBLAH illusori.co.uk>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2010 by Sam Graham <libpod-weaver-role-sectionreplacer-perl@illusori.co.uk>.
+This software is copyright (c) 2010 by Sam Graham <libpod-weaver-role-sectionreplacer-perl BLAHBLAH illusori.co.uk>.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
