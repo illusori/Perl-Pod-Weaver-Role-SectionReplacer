@@ -28,3 +28,4 @@ t/test_files/pod_with_test_section_and_alias.in.pod
 t/test_files/pod_with_test_section_and_alias.out.pod
 t/test_files/pod_without_test_section.in.pod
 t/test_files/pod_without_test_section.out.pod
+weaver.ini
