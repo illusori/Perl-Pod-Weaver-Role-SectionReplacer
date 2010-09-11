@@ -21,6 +21,7 @@ my $builder = Module::Build->new(
             'repository' => 'http://github.com/illusori/Perl-Pod-Weaver-Role-SectionReplacer',
             },
         },
+    create_readme => 1,
     sign => 1,
     dynamic_config => 0,
 );

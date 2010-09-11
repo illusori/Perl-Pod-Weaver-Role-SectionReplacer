@@ -1,29 +1,34 @@
-Pod-Weaver-Role-SectionReplacer
+NAME
+    Pod::Weaver::Role::SectionReplacer - a Pod::Weaver section that will
+    replace itself in the original document.
 
-A role for Pod::Weaver plugins, allowing them to replace a named
-section of the input document rather than appending a potentially
-duplicate section.
+VERSION
+    version 0.99_01
 
 INSTALLATION
+    To install this module, run the following commands:
 
-To install this module, run the following commands:
+      perl Build.PL
+      ./Build
+      ./Build test
+      ./Build install
 
-	perl Build.PL
-	./Build
-	./Build test
-	./Build install
+SYNOPSIS
+    A role for Pod::Weaver plugins, allowing them to replace a named section
+    of the input document rather than appending a potentially duplicate
+    section.
 
 SUPPORT AND DOCUMENTATION
+    After installing, you can find documentation for this module with the
+    perldoc command.
 
-After installing, you can find documentation for this module with the
-perldoc command.
+      perldoc Pod::Weaver::Role::SectionReplacer
 
-    perldoc Pod::Weaver::Role::SectionReplacer
-
-You can also look for information at:
+    You can also look for information at:
 
     RT, CPAN's request tracker
-        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Pod-Weaver-Role-SectionReplacer
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Pod-Weaver-Role-SectionRepl
+        acer
 
     AnnoCPAN, Annotated CPAN documentation
         http://annocpan.org/dist/Pod-Weaver-Role-SectionReplacer
@@ -34,14 +39,14 @@ You can also look for information at:
     Search CPAN
         http://search.cpan.org/dist/Pod-Weaver-Role-SectionReplacer/
 
+AUTHOR
+    Sam Graham <libpod-weaver-role-sectionreplacer-perl BLAHBLAH
+    illusori.co.uk>
 
-LICENSE AND COPYRIGHT
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2010 by Sam Graham
+    <libpod-weaver-role-sectionreplacer-perl BLAHBLAH illusori.co.uk>.
 
-Copyright (C) 2010 Sam Graham
-
-This program is free software; you can redistribute it and/or modify it
-under the terms of either: the GNU General Public License as published
-by the Free Software Foundation; or the Artistic License.
-
-See http://dev.perl.org/licenses/ for more information.
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
 
