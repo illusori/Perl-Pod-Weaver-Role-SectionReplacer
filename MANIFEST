@@ -15,7 +15,6 @@ t/94-minimumversion.t
 t/95-manifest.t
 t/98-pod.t
 t/99-pod-coverage.t
-t/boilerplate.t
 t/inc/Pod/Weaver/Section/TestSectionReplacer.pm
 t/test_files/50-weave.ini
 t/test_files/pod_with_multiple_test_section.in.pod
