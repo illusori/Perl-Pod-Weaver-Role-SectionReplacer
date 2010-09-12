@@ -80,6 +80,12 @@ Pod::Weaver::Role::SectionReplacer - a Pod::Weaver section that will replace its
 
 version 0.99_01
 
+=head1 SYNOPSIS
+
+A role for L<Pod::Weaver> plugins, allowing them to replace a named
+section of the input document rather than appending a potentially
+duplicate section.
+
 =begin readme
 
 =head1 INSTALLATION
@@ -92,12 +98,6 @@ To install this module, run the following commands:
   ./Build install
 
 =end readme
-
-=head1 SYNOPSIS
-
-A role for L<Pod::Weaver> plugins, allowing them to replace a named
-section of the input document rather than appending a potentially
-duplicate section.
 
 =for readme stop
 

@@ -5,6 +5,11 @@ NAME
 VERSION
     version 0.99_01
 
+SYNOPSIS
+    A role for Pod::Weaver plugins, allowing them to replace a named section
+    of the input document rather than appending a potentially duplicate
+    section.
+
 INSTALLATION
     To install this module, run the following commands:
 
@@ -12,11 +17,6 @@ INSTALLATION
       ./Build
       ./Build test
       ./Build install
-
-SYNOPSIS
-    A role for Pod::Weaver plugins, allowing them to replace a named section
-    of the input document rather than appending a potentially duplicate
-    section.
 
 SUPPORT AND DOCUMENTATION
     After installing, you can find documentation for this module with the
