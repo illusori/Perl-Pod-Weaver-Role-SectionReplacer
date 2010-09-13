@@ -13,7 +13,7 @@ my $builder = Module::Build->new(
     requires       => {
         'Moose'          => 0,
         'Moose::Autobox' => '0.11',
-        'Pod::Elemental' => 0,
+        'Pod::Elemental' => '0.101620',
         'Pod::Weaver'    => 0,
     },
     meta_merge => {
