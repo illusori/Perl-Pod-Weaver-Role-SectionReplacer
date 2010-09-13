@@ -8,7 +8,7 @@ with 'Pod::Weaver::Role::Transformer';
 use Moose::Autobox 0.11;
 use Pod::Elemental::Selectors -all;
 
-our $VERSION = '0.99_01';
+our $VERSION = '0.99_02';
 
 has original_section => (
   is  => 'rw',
@@ -78,7 +78,7 @@ Pod::Weaver::Role::SectionReplacer - A Pod::Weaver section that will replace its
 
 =head1 VERSION
 
-version 0.99_01
+version 0.99_02
 
 =head1 SYNOPSIS
 
