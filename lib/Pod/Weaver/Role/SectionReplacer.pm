@@ -5,7 +5,7 @@ package Pod::Weaver::Role::SectionReplacer;
 use Moose::Role;
 with 'Pod::Weaver::Role::Transformer';
 
-use Moose::Autobox;
+use Moose::Autobox 0.11;
 use Pod::Elemental::Selectors -all;
 
 our $VERSION = '0.99_01';

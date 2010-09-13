@@ -1,5 +1,5 @@
 NAME
-    Pod::Weaver::Role::SectionReplacer - a Pod::Weaver section that will
+    Pod::Weaver::Role::SectionReplacer - A Pod::Weaver section that will
     replace itself in the original document.
 
 VERSION

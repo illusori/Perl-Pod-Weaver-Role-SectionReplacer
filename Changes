@@ -2,6 +2,7 @@ Revision history for Pod-Weaver-Role-SectionReplacer
 
 0.99_02 Version released at .  *** Development version. ***
         Typo fixes in Pod.
+        Require Moose::Autobox 0.11 for $array->first().
 
 0.99_01 Version released at 2010-09-12-02:23.  *** Development version. ***
         Initial release.
