@@ -3,7 +3,7 @@ NAME
     replace itself in the original document.
 
 VERSION
-    version 0.99_02
+    version 1.00
 
 SYNOPSIS
     A role for Pod::Weaver plugins, allowing them to replace a named section

@@ -16,7 +16,7 @@ name: Pod-Weaver-Role-SectionReplacer
 provides:
   Pod::Weaver::Role::SectionReplacer:
     file: lib/Pod/Weaver/Role/SectionReplacer.pm
-    version: 0.99_02
+    version: 1.00
 requires:
   Moose: 0
   Moose::Autobox: 0.11
@@ -25,4 +25,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/illusori/Perl-Pod-Weaver-Role-SectionReplacer
-version: 0.99_02
+version: 1.00
